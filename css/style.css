@@ -1,0 +1,240 @@
+*{
+
+/*box-sizing: border-box;*/
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  width: 100%;
+
+}
+
+a{
+
+
+text-decoration: none;
+
+}
+
+
+.red-button{
+
+  background:rgb(196, 21, 21);
+  color:white;
+  border:none;
+  height: 36px;
+  width: 120px;
+  border-radius: 3px;
+  cursor:pointer;
+  transition: background-color 0.1s, color 0.1s;
+  margin: 4px;
+  padding:1px;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0.9;
+  /* vertical-align: auto/top/bottom/middle/etc; */
+}
+
+.red-button:hover{
+background-color: rgb(207, 83, 83);
+color:white;
+box-shadow: 0.8px 0.8px 10px rgb(202, 188, 188);
+}
+
+.red-button:active{
+  opacity: 0.4;
+}
+
+p{
+
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.y_thumbnail{
+
+  width: 300px;
+  /*margin-top: 0px;*/
+  /*object-fit: cover;
+  object-position: left;*/
+  }
+  
+  .y_thumbnail:hover{
+  box-shadow: 1px 1px 5px rgb(177, 174, 174);
+  cursor: pointer;
+  
+  
+  }
+  
+  .y_thumbnail:active{
+  }
+
+.video-title{
+
+font-family:Arial, Helvetica, sans-serif;
+font-size: 18px;
+font-weight: bold;
+width: 300px;
+line-height: 24px;
+margin-bottom:5px;
+color: black;
+text-decoration: none;
+
+}
+
+
+.video-stats{
+
+  font-size: 14px;
+  color: rgb(78, 77, 77);
+  line-height: 24px;
+  width: 300px;
+  margin-bottom: 12px;
+
+  
+  }
+
+.video-author{
+
+line-height: 22px;
+font-size: 14px;
+color: rgb(78, 77, 77);
+margin-bottom: 12px;
+width: 300px;
+
+
+}
+
+.video-description{
+
+  line-height: 22px;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 12px;
+  width: 300px;
+  margin-bottom: 15px;
+
+
+}
+
+.apple-text{
+
+
+margin-bottom: 50px;
+font-size: 14px;
+background-color: rgb(255, 39, 39);
+width:800px;
+color:white;
+padding-top:15px;
+padding-bottom: 15px;
+text-align: center;
+
+
+}
+
+.under_link{
+
+}
+
+.under_link:hover{
+
+
+text-decoration: underline;
+cursor: pointer;
+
+}
+
+.git-button{
+
+background-color: black;
+color:white;
+font-weight: bold;
+border:none;
+height:36px;
+width:120px;
+border-radius: 3px;
+cursor:pointer;
+transition: background-color 0.1s, color 0.1s;
+margin: 8px;
+padding:1px;
+text-align: center;
+vertical-align: middle;
+}
+
+.git-button:hover{
+
+background-color: rgb(54, 46, 46);
+color:white;
+box-shadow: 0.8px 0.8px 10px rgb(202, 188, 188);
+}
+
+.git-button:active{
+
+opacity: 0.4;
+
+}
+
+
+
+.search_bar{
+
+border-color: black;
+border-radius: 2.5px;
+background-color: white;
+color: black;
+border-width: 1px;
+font-size: 16px;
+display: inline-block;
+height: 34px;
+width: 400px;
+margin-left: 8px;
+margin-right: 8px;
+padding:1px;
+vertical-align: middle;
+
+}
+
+button:hover{
+
+
+  opacity: 0.8;
+}
+
+button:active{
+  opacity: 0.6;
+}
+
+.y_logo{
+
+width: 100px;
+height: 36px;
+
+
+}
+
+/*.y_button{
+
+
+border:none;
+border-radius: 2.5px;
+background:rgb(196, 21, 21);
+color:white;
+border:none;
+height: 36px;
+width: 120px;
+border-radius: 2.5px;
+cursor:pointer;
+transition: background-color 0.1s, color 0.1s;
+margin: 4px;
+padding:1px;
+font-weight: bold;
+text-align: center;
+opacity: 0.9;
+vertical-align: middle;
+}*/
+
+.video-preview{
+
+width: 300px;
+
+}
