@@ -9,12 +9,14 @@ body{
 
 }
 
-a{
+a, a:hover, a:focus, a:active, a:visited{
 
 
 text-decoration: none;
+color: black;
 
 }
+
 
 
 .red-button{
@@ -53,7 +55,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 .y_thumbnail{
 
-  width: 300px;
+  width: 100%;
   /*margin-top: 0px;*/
   /*object-fit: cover;
   object-position: left;*/
@@ -74,7 +76,7 @@ font-family: Arial, Helvetica, sans-serif;
 font-family:Arial, Helvetica, sans-serif;
 font-size: 18px;
 font-weight: bold;
-width: 300px;
+width: 100%;
 line-height: 24px;
 margin-bottom:5px;
 color: black;
@@ -88,7 +90,7 @@ text-decoration: none;
   font-size: 14px;
   color: rgb(78, 77, 77);
   line-height: 24px;
-  width: 300px;
+  width: 100%;
   margin-bottom: 12px;
 
   
@@ -100,7 +102,7 @@ line-height: 22px;
 font-size: 14px;
 color: rgb(78, 77, 77);
 margin-bottom: 12px;
-width: 300px;
+width: 100%;
 
 
 }
@@ -111,7 +113,7 @@ width: 300px;
   font-size: 14px;
   color: rgb(0, 0, 0);
   margin-bottom: 12px;
-  width: 300px;
+  width: 100%;
   margin-bottom: 15px;
 
 
@@ -235,6 +237,14 @@ vertical-align: middle;
 
 .video-preview{
 
-width: 300px;
+width: 100%;
 
+}
+
+.y_grid1{
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+/*column-gap: 200px;*/
+/*row-gap: 200px;*/
 }
